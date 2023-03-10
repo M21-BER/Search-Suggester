@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+}
+section.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div.search-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+div.search-box > h1 {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 50px;
+  font-family: "Tilt Prism", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 2px #222;
+}
+div.search-box > h1 span {
+  color: #4285f4;
+}
+div.input-box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.onsearch-box {
+  gap: 0 !important;
+}
+
+div.input-box input[type="text"] {
+  padding: 12px 10px;
+  width: 100%;
+  border: 1px inset #767474;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.onsearch-input {
+  border-radius: 15px 15px 0 0 !important;
+  border-bottom: none !important;
+  -webkit-border-radius: 15px 15px 0 0 !important;
+  -moz-border-radius: 15px 15px 0 0 !important;
+  -ms-border-radius: 15px 15px 0 0 !important;
+  -o-border-radius: 15px 15px 0 0 !important;
+}
+input[type="text"]:focus {
+  border: 1px inset #24ac5a;
+}
+ul.list {
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+}
+.list-back {
+  background: #fff !important;
+  border: 1px inset #767474;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-data {
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.list-data:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
